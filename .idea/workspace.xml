@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2c7eb7a3-ea3b-49d6-acdf-8ca0e2326922" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/inc/inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/widget/about-us.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/widget/ads160x600.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/widget/ads300x250.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/widget/ads728x90.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/widget/carousel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/widget/comments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/widget/facebook.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/widget/flickr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/widget/popular.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/widget/recent-large-overlay.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/widget/recent-large.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/widget/recent_list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/widget/recent_main_list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/widget/recent_main_list_white.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/widget/social_icons.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/widget/subscribe_box.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/widget/tab-post-large.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/widget/tab-post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/widget/tab.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/widget/video-widget.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alp/alp-side.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alp/alp-single.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/amp-media-queries.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/amp-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/editor-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/iecss.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/media-queries-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/media-queries.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fly-menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/fly-menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/HELP-US-OUT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/animated.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/bordered-pulled.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/fixed-width.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/font-awesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/larger.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/path.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/rotated-flipped.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/screen-reader.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/stacked.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_animated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_fixed-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_larger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_path.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_stacked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blank.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/insta-bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/logo-large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/logo-large@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/logo-nav.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/logo-nav@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/logo2-large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/logo2-large@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/logo2-nav.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/logo2-nav@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/import/zox-news.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/import/zoxnews.wie" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/alp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/flexslider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.infinitescroll.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/mvpcustom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/retina.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/zox-news.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/zox-news.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/zox-news.pot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parts/post-single.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/amp.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/class-tgm-plugin-activation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mvp-social-buttons.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/one-click-demo-import.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/reviewer.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/theia-post-slider.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/theia-sticky-sidebar.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/zox-alp.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/widgets/widget-ad.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/widgets/widget-facebook.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/widgets/widget-flex.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/widgets/widget-home-dark.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/widgets/widget-home-feat1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/widgets/widget-home-feat2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/widgets/widget-tabber.php" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kSQgLzvY3aGnSypCFyE4qHXsbZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/inc" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\hr\wp-content\themes\zox-news-child\inc" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c7eb7a3-ea3b-49d6-acdf-8ca0e2326922" name="Default Changelist" comment="" />
+      <created>1605691623361</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605691623361</updated>
+      <workItem from="1605691624566" duration="2993000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/functions.php</url>
+          <line>1</line>
+          <properties>
+            <option name="className" value="" />
+            <option name="methodName" value="\zox_news_child_enqueue_styles" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

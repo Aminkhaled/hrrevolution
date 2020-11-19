@@ -61,5 +61,6 @@
 <div class="mvp-fly-fade mvp-fly-but-click">
 </div><!--mvp-fly-fade-->
 <?php wp_footer(); ?>
+
 </body>
 </html>

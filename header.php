@@ -131,11 +131,29 @@
 															<?php if(get_option('mvp_instagram')) { ?>
 																<a href="<?php echo esc_html(get_option('mvp_instagram')); ?>" target="_blank"><span class="mvp-nav-soc-but fa fa-instagram fa-2"></span></a>
 															<?php } ?>
+                                                            <?php if(get_option('mvp_linkedin')) { ?>
+                                                                <a href="<?php echo esc_url(get_option('mvp_linkedin')); ?>" target="_blank" ><span class="mvp-nav-soc-but fa fa-linkedin fa-2"></span></a>
+                                                            <?php } ?>
 															<?php if(get_option('mvp_youtube')) { ?>
 																<a href="<?php echo esc_html(get_option('mvp_youtube')); ?>" target="_blank"><span class="mvp-nav-soc-but fa fa-youtube-play fa-2"></span></a>
 															<?php } ?>
+                                                            <?php
+                                                            if(!is_page('newsletter')){
+                                                                ?>
+                                                                <div class="subscribe">
+                                                                    <a href="<?php
+                                                                    $page = get_page_by_path( 'newsletter' );
+                                                                    echo get_permalink( $page );
+                                                                    ?>">
+                                                                        Subscribe
+                                                                    </a>
+                                                                </div>
+                                                                <?php
+                                                            }
+                                                            ?>
 														</div><!--mvp-nav-soc-wrap-->
-														<div class="mvp-fly-but-wrap mvp-fly-but-click left relative">
+
+                                                        <div class="mvp-fly-but-wrap mvp-fly-but-click left relative">
 															<span></span>
 															<span></span>
 															<span></span>
@@ -165,8 +183,11 @@
 																</div><!--mvp-drop-nav-title-->
 															<?php } ?>
 														</div><!--mvp-nav-top-mid-->
+
 													</div><!--mvp-nav-top-left-in-->
-												</div><!--mvp-nav-top-left-out-->
+
+                                                </div><!--mvp-nav-top-left-out-->
+
 											</div><!--mvp-nav-top-cont-->
 										</div><!--mvp-nav-top-right-in-->
 										<div class="mvp-nav-top-right">

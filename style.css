@@ -1,14 +1,15 @@
 /*
-Theme Name: Zox News
-Description: Zox News helps you go from blogger to boss by giving you a wide range of tools and options to give you the most professional-looking and functioning news site on the net. Zox News comes with a mobile-first-design, 8 article layouts, 4 Featured Posts layouts, parallax leaderboard ad, Theia Post Slider, Theia Sticky Sidebar, Reviewer Plugin, Woocommerce-ready, and so much more!
-Author: MVP Themes
-Author URI: https://themeforest.net/user/mvpthemes/portfolio
-Theme URI: http://themeforest.net/user/mvpthemes
-Version: 3.6.0
-License: GNU General Public License v3 or later
-License URI: http://www.gnu.org/licenses/gpl-3.0.html
-Tags: two-columns, custom-background, custom-colors, custom-menu, featured-images, theme-options, threaded-comments, translation-ready
-Text Domain: zox-news
+Theme Name:   Zox News Child
+Theme URI:    https://themeforest.net/user/mvpthemes/
+Description:  Zox News Child Theme
+Author:       MVP Themes
+Author URI:   https://themeforest.net/user/mvpthemes/portfolio
+Template:     zox-news
+Version:      1.0.0
+License:      GNU General Public License v3 or later
+License URI:  http://www.gnu.org/licenses/gpl-3.0.html
+Tags:         two-columns, custom-background, custom-colors, custom-menu, featured-images, theme-options, threaded-comments, translation-ready
+Text Domain:  zox-news-child
 */
 
 /************************************************
@@ -29,6 +30,7 @@ Text Domain: zox-news
 13. WooCommerce
 14. Footer
 15. Pagination
+16. subscribe
 
 ************************************************/
 
@@ -351,7 +353,7 @@ span.mvp-woo-cart-num,
 	}
 
 .mvp-nav-top-left-in {
-	margin-left: 200px;
+	margin-left: 230px;
 	}
 
 .mvp-nav-top-mid {
@@ -372,7 +374,7 @@ h2.mvp-logo-title {
 	position: absolute;
 		top: 0;
 		bottom: 0;
-	width: 200px;
+	width: 250px;
 	height: 100%;
 	}
 
@@ -469,8 +471,14 @@ span.mvp-nav-soc-but {
 	}
 
 .mvp-nav-soc-wrap .fa-youtube-play:hover {
-	background: #f00;
+	background: #f00 !important;
 	}
+.fa-youtube-play:hover{
+	background: #f00 !important;
+}
+.mvp-nav-soc-wrap .fa-linkedin:hover{
+	background: #069 !important;
+}
 
 .mvp-nav-soc-wrap a:first-child span.mvp-nav-soc-but {
 	margin-left: 0;
@@ -3594,6 +3602,261 @@ ul.mvp-blog-story-list .mvp-blog-story-wrap:first-child {
 .textwidget p {
 	margin-bottom: 15px;
 	}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Widget and sidebar
+/*-----------------------------------------------------------------------------------*/
+.widget-title, h3.widget-title {
+	float: left;
+	margin-bottom: 25px;
+	width: 100%;
+	border-bottom: 2px solid #E6E6E6;
+	padding: 0px;
+	text-transform: uppercase;
+}
+
+h3.sitemap_title {
+	font-weight: 800;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.textwidget {
+	float: left;
+	width: 100%;
+}
+
+#sidebar_small .widget_container, #sidebar .widget_container, footer .widget_container {
+	float: left;
+	width: 100%;
+}
+
+.widget_container.mainpost_widget {
+	background: #323439;
+	margin-bottom: 10px;
+}
+
+.widget_container.mainpost_widget .post-category-color-text, .slider-right-list-post .post-category-color-text{
+	color: #FFF;
+}
+
+.widget_container.mainpost_widget .post-meta.meta-main-img a{
+	color: #FFF !important;
+}
+
+.widget_container.mainpost_widget ul li {
+	padding: 0px 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #5E5E5E !important;
+}
+
+.widget_container.mainpost_widget ul li .feature-post-title a {
+	color: #FFF !important;
+}
+
+.widget_container.mainpost_widget .post-meta .post-date, .widget_container.mainpost_widget .post-meta .post-author a {
+	color: #E0E0E0 !important;
+}
+
+.widget-title {
+	text-align: center;
+}
+
+h3.widget-title span {
+	border-top: none !important;
+}
+
+.widget-title h2, h3.widget-title span {
+	color: #222;
+	font-size: 17px;
+	height: 33px;
+	line-height: 33px;
+	font-weight: 800;
+	letter-spacing: -0.5px;
+	padding: 0px 23px 5px 9px;
+	margin-bottom: 0px;
+	float: left;
+	background-image: url(img/border_title.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: right center !important;
+}
+.widget-title h2:after{
+	border-top: 32px solid transparent;
+	border-right-width: 0;
+	border-left-width: 14px;
+	left: 100%;
+	bottom: 0;
+
+}
+.widget-title h2:after{border: 0 solid #D16400;}
+.widget-title h2 span {
+}
+
+.menu-main-menu-container i {
+	margin-right: 5px;
+}
+
+.social-twitter, .social-facebook, .social-youtube, .social-google-plus {
+	width: 50%;
+	float: left;
+	margin-bottom: 15px;
+}
+
+.social-twitter .icon {
+	background: #4099FF;
+}
+
+.social-facebook .icon {
+	background: #3B5998;
+}
+
+.social-youtube .icon {
+	background: #CD332D;
+}
+
+.social-google-plus .icon {
+	background: #DD4B39;
+}
+
+.social-twitter .icon, .social-facebook .icon, .social-youtube .icon, .social-google-plus .icon {
+	float: left;
+	color: #FFF;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 30px;
+	margin-right: 10px;
+}
+
+.social-twitter h2, .social-facebook h2, .social-youtube h2, .social-google-plus h2 {
+	font-size: 20px !important;
+	margin: 0px;
+	line-height: 20px;
+}
+
+.social-twitter p, .social-facebook p, .social-youtube p, .social-google-plus p {
+	font-size: 13px !important;
+	margin: 0px !important;
+}
+
+#content .widget, #sidebar .widget, #sidebar_small .widget {
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.widget.social_counter {
+	margin-bottom: 25px !important;
+}
+
+.widget.ht_flickr_widget {
+	margin-bottom: 25px !important;
+}
+
+#sidebar_small .flickr_badge_image {
+	width: 73px;
+	height: 73px;
+}
+
+#sidebar_small .flickr_badge_image a {
+	height: 75px;
+	width: 75px;
+}
+#sidebar .flickr_badge_image{ width: 85px; height: 85px; margin-right: 1px; margin-bottom: 1px;}
+#sidebar .flickr_badge_image a{margin-bottom: 1px; height: 85px; width: 85px;}
+#sidebar .flickr_badge_image img{ margin-bottom: 1px; height: 85px; width: 85px;}
+.image-flickr-widget {
+	float: left;
+}
+
+.flickr_badge_image {
+	float: left;
+	margin-right: 1px;
+	margin-bottom: 1px;
+	width: 82px;
+	height: 82px;
+}
+
+.flickr_badge_image a {
+	float: left;
+	margin-bottom: 1px;
+	height: 82px;
+	width: 82px;
+}
+
+.flickr_badge_image img {
+	float: left;
+	margin-bottom: 1px;
+	height: 82px;
+	width: 82px;
+}
+
+#sidebar_small .image_post.feature-item, #sidebar .image_post.feature-item, #content .image_post.feature-item {
+	margin-bottom: 10px;
+}
+
+.loadmore_list_image {
+	margin-bottom: 0px !important;
+}
+
+#sidebar_small select, #sidebar select, #footer-container select {
+	width: 90%;
+}
+.widget.main_post_style .wrap_box_style_main.image-post-title {
+	margin-top: 0px !important;
+}
+
+.widget.main_post_style .feature_post_images_w:last-child .wrap_box_style_main.image-post-title {
+	margin-bottom: 0px !important;
+}
+
+.feature_post_images_w:last-child .wrap_box_style_main {
+	margin-bottom: 0px;
+}
+
+.feature_post_images_w .wrap_box_style_main {
+	margin-bottom: 20px;
+}
+.mainpost_white_widget .mainpost_white_widget_desc{width: 100%; float: left; border-bottom: 1px solid #e6e6e6; margin: 0px; padding-bottom: 13px;}
+.main_post_style .two-content-wrapper p {
+	margin-bottom: 5px;
+}
+
+.main_post_style .two-content-wrapper p.post-meta {
+	margin-bottom: 4px !important;
+}
+
+.ads300x250-thumb {
+	text-align: center;
+}
+
+#full-screen-background-image {
+	z-index: -999;
+	min-height: 100%;
+	min-width: 1024px;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.body_wraper_full {
+	background: #FFF;
+	width: 100%;
+	min-width: 300px;
+	margin: 0 auto;
+}
+
+.ads728x90-thumb {
+	line-height: 0px;
+	float: right;
+}
+
+.ads728x90-thumb a {
+	float: right;
+}
 
 /************************************************
 	10. Posts
@@ -6801,7 +7064,7 @@ a.mvp-inf-more-but {
 	padding: 15px 0;
 	text-align: center;
 	text-transform: uppercase;
-	width: 70%;
+	width: 30%;
 	}
 
 a.mvp-inf-more-but:hover {
@@ -7149,3 +7412,55 @@ h1.mvp-author-top-head,
 .mvp-feat5-side-list .mvp-feat1-list-img:after {
 	font-family: 'Oswald', sans-serif;
 	}
+
+/*
+==================
+Subscribe
+==================
+*/
+.subscribe{
+	position: absolute;
+	left: 25%;
+	margin-top: 15px;
+	top: 50px;
+}
+.subscribe a{
+	text-decoration: none;
+	background: #e44e40;
+	border-radius: 40px;
+	padding: 10px 20px;
+	color: white;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+ .subscribe-scroll {
+	 position: absolute;
+	 left: 80%;
+	 top: 0;
+	 margin-top: 6px;
+}
+#mvp-fly-wrap .subscribe-fly {
+	position: absolute;
+	left: 35%;
+	margin-top: 15px;
+	top: 60%;
+}
+#mvp-fly-wrap .subscribe-fly a{
+	text-decoration: none;
+	background: #e44e40;
+	border-radius: 40px;
+	padding: 10px 20px;
+	color: white;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+
+.subscribe a,.subscribe-fly a {
+	text-decoration: none;
+	background: #e44e40;
+	border-radius: 40px;
+	padding: 10px 20px;
+	color: white;
+	font-weight: 500;
+	letter-spacing: 1px;
+}

@@ -52,4 +52,18 @@
 			<?php } ?>
 		</ul>
 	</div><!--mvp-fly-soc-wrap-->
+    <?php
+    if(!is_page('newsletter')){
+        ?>
+        <div class="subscribe-fly ">
+            <a href="<?php
+            $page = get_page_by_path( 'newsletter' );
+            echo get_permalink( $page );
+            ?>">
+                Subscribe
+            </a>
+        </div>
+        <?php
+    }
+    ?>
 </div><!--mvp-fly-wrap-->
