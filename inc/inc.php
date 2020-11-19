@@ -8,6 +8,7 @@ require_once dirname( __FILE__ ).'/widget/facebook.php';
 require_once dirname( __FILE__ ).'/widget/flickr.php';
 require_once dirname( __FILE__ ).'/widget/ads300x250.php';
 require_once dirname( __FILE__ ).'/widget/ads728x90.php';
+require_once dirname( __FILE__ ).'/widget/ads200x760.php';
 require_once dirname( __FILE__ ).'/widget/ads160x600.php';
 require_once dirname( __FILE__ ).'/widget/popular.php';  
 require_once dirname( __FILE__ ).'/widget/recent_main_list.php';
